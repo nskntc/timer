@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./js/script.js" defer type="module"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="timer">
+            <div class="numbers">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <div class="controls">
+                <button class="button" id="play"><img src="./assets/play.svg" alt="Play button"></button>
+                <button class="button" id="stop"><img src="./assets/stop.svg" alt="Stop button"></button>
+                <button class="button" id="plus-five"><img src="./assets/+.svg" alt="Plus five button"></button>
+                <button class="button" id="less-five"><img src="./assets/-.svg" alt="Less five button"></button>
+            </div>
+        </div>
+
+        <div class="environments">
+            <button class="card" id="florest"><img src="./assets/icon.svg" alt="Florest icon"></button>
+            <audio src="./assets/Floresta.wav" id="florest-audio"></audio>
+            <button class="card"  id="rain"><img src="./assets/icon (1).svg" alt="Rain icon"></button>
+            <audio src="./assets/Chuva.wav" id="rain-audio"></audio>   
+            <button class="card" id="coffe-shop"><img src="./assets/icon (2).svg" alt="Coffe-shop icon"></button>
+            <audio src="./assets/Cafeteria.wav" id="coffe-audio"></audio>
+            <button class="card" id="bonfire"><img src="./assets/icon (3).svg" alt="Bonfire icon"></button>
+            <audio src="./assets/Lareira.wav" id="bonfire-audio"></audio>
+        </div>
+
+    </div>
+
+</body>
+</html>
